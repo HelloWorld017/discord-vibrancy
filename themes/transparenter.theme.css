@@ -1,0 +1,81 @@
+//META{"name":"Transparenter","description":"Use with discord-vibrancy!","author":"Khinenw","version":"1.0"}*//{}
+
+html,
+#app-mount,
+body #app-mount .messages-wrapper,
+body #app-mount .messages-scroller,
+body #app-mount .flex-horizontal>.flex-spacer,
+body #app-mount .chat,
+body #app-mount .chat .messages,
+body #app-mount .chat .content,
+body #app-mount .message-group,
+body #app-mount .friends-table,
+body #app-mount .friends-table .friends-table-body,
+body #app-mount #friends,
+body #app-mount .content-region,
+body #app-mount .container-2OU7Cz,
+body #app-mount .container-3NvGrL,
+body #app-mount .theme-dark .chat form,
+body #app-mount .channels-3g2vYe,
+body #app-mount .chat>.titleWrapper-3Vi_wz,
+body #app-mount .chat .titleWrapper-3Vi_wz {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+body #app-mount .container-RYiLUQ {
+	background: rgba(0, 0, 0, .4) !important;
+}
+
+body #app-mount .channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar {
+	background: rgba(0, 0, 0, .1) !important;
+}
+
+body #app-mount .comment {
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+body #app-mount .theme-dark .channel-members {
+	background: rgba(0, 0, 0, .6) !important;
+}
+
+body #app-mount .title-qAcLxz {
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+body #app-mount .channelTextArea-1HTP3C textarea {
+	background: rgba(0, 0, 0, .4) !important;
+}
+
+body #app-mount .guilds-wrapper {
+	background: rgba(0, 0, 0, .6) !important;
+}
+
+body #app-mount .header-1tSljs,
+body #app-mount .guild-header {
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+body #app-mount .container-iksrDt {
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+body #app-mount .titleBar-3_fDwJ {
+	background: rgba(0, 0, 0, .7) !important;
+}
+
+body #app-mount .winButton-U7zAqI {
+	transition: all .4s ease;
+}
+
+body #app-mount .winButtonMinMax-bT_gQ1 svg {
+	transition: all .4s ease;
+}
+
+body #app-mount .winButtonMinMax-bT_gQ1:hover {
+	background: #fff;
+}
+
+body #app-mount .winButtonMinMax-bT_gQ1:hover svg {
+	filter: invert();
+}
