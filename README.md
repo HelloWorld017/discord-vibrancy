@@ -24,4 +24,4 @@ A simple plugin to make them transparent & blurry.
 ## How this work?
 1. The BetterDiscord plugin injects a code to BetterDiscord code.  
 2. When discord turns on, injected code replaces cache of electron to a [Proxy](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Proxy) Object.  
-3. When discord requires electron and creates a new broswer window, proxy intercepts to the function call and make it transparent & blurred.
+3. When discord requires electron and creates a new broswer window, proxy intercepts the function call and make the window transparent & blurred.
