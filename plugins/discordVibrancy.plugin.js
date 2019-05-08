@@ -53,6 +53,8 @@ class DiscordVibrancy {
 	}
 	
 	unload() {}
+	
+	start() {
+		console.log("[DISCORD VIBRANCY] Plugin Starting...");
+	}
 }
-
-console.log("[DISCORD VIBRANCY] Plugin Starting...");
